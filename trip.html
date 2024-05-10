@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            margin-top: 0;
+        }
+
+        .review {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        #add-review {
+    margin-top: 20px;
+}
+
+#add-review h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#add-review form {
+    margin-top: 10px;
+}
+
+#add-review label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#add-review input[type="text"],
+#add-review input[type="number"],
+#add-review textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#add-review textarea {
+    height: 100px;
+}
+
+#add-review button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-review button:hover {
+    background-color: #45a049;
+}
+
+        /* Media query for mobile view */
+        @media (max-width: 320px) {
+            header {
+                padding: 10px;
+                font-size: 16px;
+            }
+
+            main {
+                padding: 10px;
+            }
+
+            .review {
+                padding: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Trip Title</h1>
+        <p>Destination: Destination Name</p>
+        <p>Date: Start Date - End Date</p>
+        <!-- Add more details here like ratings, reviews, etc. -->
+    </header>
+    <main>
+        <section id="description">
+            <h2>Description</h2>
+            <p>Write a description of the trip here.</p>
+        </section>
+        <section id="reviews">
+            <h2>Reviews</h2>
+            <!-- Display user reviews here -->
+            <div class="review">
+                <h3>User Name</h3>
+              <input name="" id="" cols="30" rows="10"></input>  
+                <!-- Add rating stars, date, etc. -->
+            </div>
+            <!-- Add more reviews as needed -->
+        </section>
+        <section id="add-review">
+            <h2>Add Review</h2>
+            <form action="submit_review.php" method="POST">
+                <label for="username">Name:</label>
+                <input type="text" id="username" name="username" required><br>
+                <label for="rating">Rating:</label>
+                <input type="number" id="rating" name="rating" min="1" max="5" required><br>
+                <label for="review">Review:</label><br>
+                <textarea id="review" name="review" required></textarea><br>
+                <button type="submit">Submit Review</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!-- Add footer content here -->
+    </footer>
+</body>
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="navbar">
+
+        <div class="photo">
+            <img src="./assets/tripadvisor (1).png" alt="welcome to tripadvisor">
+            <h1 class="navbar-section1__tittle">Tripadvisor</h1>
+
+        </div>
+
+
+        <div class="categories">
+            <button>Discover</button>
+            <a href="trip.html">Trip</a>
+           <a href="review.html"><button>Review</button></a> 
+            <a href="flight.html">Flights</a>
+        </div>
+
+        
+
+        <div class="rightside">
+            <button class="lang"><i class="fas fa-globe"></i> | INR</button>
+            <button class="signin" id="sign1" >Profile</button>
+
+        </div>
+
+        <div id="sign2" style="display: none;position: absolute;margin-left: 1080px; font-weight: bold; width: 130px; height: 100px; ">
+
+           
+             <div style="margin-top: 100px;  height: 80px;    padding: 15px; background-color:bisque; border-radius: 20px; ">
+
+                 <a href="login.html" ><button style="  width: 80px;  cursor: pointer; height: 35px; padding: 4px; border-radius: 20px;  margin-left: -5px;   color: rgb(50, 176, 204); font-weight: bold;text-decoration: none; " >Login</button></a>
+                  <a href="signup.html"><button style=" width: 80px; cursor: pointer; height: 35px; padding: 5px;  border-radius: 25px; margin-left: -5px; margin-top: 10px; color: rgb(44, 165, 201); font-weight: bold; text-decoration: none;">Signup</button></a>
+            </div> 
+     
+         </div>
+        
+           
+    
+    
+
+         <div class="menubar">
+            <i class="fas fa-bars" id="menu1"></i>
+        </div> 
+
+       
+
+    </div>
+    
+
+    <div class="heading">
+        <h1>Where to?</h1>
+    </div>
+    <div class="heading--1">
+        <a href="">
+            <svg viewBox="4 -2 20 24" width="24px" height="24px">
+                <path
+                    d="M3 21.2h-.75v.75H3v-.75zm0-12l-.416-.624-.334.223v.4H3zm9-6l.416-.624L12 2.299l-.416.277L12 3.2zm9.01 6h.75v-.402l-.334-.222-.416.624zm0 12v.75h.75v-.75h-.75zm-17.26 0v-12h-1.5v12h1.5zM3.416 9.824l9-6-.832-1.248-9 6 .832 1.248zm8.168-6l9.01 6 .832-1.248-9.01-6-.832 1.248zM20.26 9.2v12h1.5v-12h-1.5zm.75 11.25H3v1.5h18.01v-1.5z">
+                </path>
+            </svg>Search All
+        </a>
+        <a href="">
+            <svg viewBox="2 -5 24 24" width="24px" height="24px">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M3.252 5.405c0-.47.38-.85.85-.85h15.624c.47 0 .85.38.85.85v6.649c.68.562 1.22 1.393 1.22 2.544v4.847h-1.5V17.77H3.704v1.674h-1.5V14.57c.025-.654.304-1.588 1.05-2.35V5.404zm2.635 5.587a6.6 6.6 0 01.836-.052h3.896c-.502-.482-1.31-.93-2.433-.93-1.09 0-1.83.466-2.3.982zm7.389-.052h4.468l.036.004a5.2 5.2 0 01.537.082 2.351 2.351 0 00-.222-.233c-.447-.41-1.18-.783-2.254-.783-1.078 0-1.75.273-2.18.584a2.396 2.396 0 00-.385.346zm5.8-1.282c-.726-.652-1.812-1.148-3.235-1.148-1.347 0-2.338.347-3.06.868-.342.247-.61.525-.821.802-.736-.861-2.005-1.67-3.774-1.67-1.629 0-2.733.712-3.434 1.503V6.055h14.324v3.603zM3.703 16.27h16.594v-1.673c0-.703-.355-1.188-.888-1.545-.56-.374-1.263-.561-1.74-.613H6.724c-1.118 0-1.81.317-2.237.678-.57.482-.765 1.123-.783 1.496v1.657z">
+                </path>
+            </svg>
+            Hotels
+        </a>
+        <a href="">
+            <svg viewBox="2 -5 24 24" width="24px" height="24px">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M2.25 5.25h19.5v4.454l-.536.16a2.752 2.752 0 000 5.272l.536.16v4.454H2.25v-4.454l.536-.16a2.752 2.752 0 000-5.272l-.536-.16V5.25zm1.5 1.5v1.876a4.25 4.25 0 010 7.748v1.876h16.5v-1.876a4.25 4.25 0 010-7.748V6.75H3.75z">
+                </path>
+                <path
+                    d="M12 15a1 1 0 110 2 1 1 0 010-2zM12 11.5a1 1 0 110 2 1 1 0 010-2zM12 8a1 1 0 110 2 1 1 0 010-2z">
+                </path>
+            </svg>
+            Thing Do Go
+        </a>
+        <a href="">
+            <svg viewBox="2 -3 24 24" width="24px" height="24px">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.578 4.891L16.25 2.22l1.06 1.06-2.671 2.672c-.679.679-1.055 1.462-1.12 2.199-.043.5.054 1.003.327 1.472L18.75 4.72l1.06 1.06-4.906 4.906c.473.281.974.387 1.466.354.718-.047 1.467-.394 2.096-1.023A869.223 869.223 0 0021.02 7.45l.226-.228h.001l1.066 1.055-.227.23a983.524 983.524 0 01-2.56 2.57c-.849.849-1.927 1.384-3.057 1.459a4.026 4.026 0 01-2.647-.768L12.591 13l7.72 7.72-1.061 1.06-5.97-5.97-3 3-1.75-1.75-4.72 4.72-1.06-1.06L7.47 16 3.077 11.61a4.75 4.75 0 010-6.718l.702-.702 7.75 7.75 1.232-1.232a3.971 3.971 0 01-.737-2.686c.1-1.147.67-2.246 1.553-3.13zm-1.359 9.86L3.808 6.338a3.25 3.25 0 00.33 4.21l6.142 6.14 1.94-1.939z">
+                </path>
+            </svg>
+            Restaurents
+        </a>
+        <a href="">
+            <svg viewBox="2 -2 24 24" width="24px" height="24px">
+                <path
+                    d="M3 21.2h-.75v.75H3v-.75zm0-12l-.416-.624-.334.223V9.2H3zm9-6l.416-.624L12 2.299l-.416.277L12 3.2zm9.01 6h.75v-.402l-.334-.222-.416.624zm0 12v.75h.75v-.75h-.75zm-17.26 0v-12h-1.5v12h1.5zM3.416 9.824l9-6-.832-1.248-9 6 .832 1.248zm8.168-6l9.01 6 .832-1.248-9.01-6-.832 1.248zM20.26 9.2v12h1.5v-12h-1.5zm.75 11.25H3v1.5h18.01v-1.5zM18 12.96h-6.99v1.5H18v-1.5zm-7.74.75c0 .69-.56 1.25-1.25 1.25v1.5a2.75 2.75 0 002.75-2.75h-1.5zm-1.25 1.25c-.69 0-1.25-.56-1.25-1.25h-1.5a2.75 2.75 0 002.75 2.75v-1.5zm-1.25-1.25c0-.69.56-1.25 1.25-1.25v-1.5a2.75 2.75 0 00-2.75 2.75h1.5zm1.25-1.25c.69 0 1.25.56 1.25 1.25h1.5a2.75 2.75 0 00-2.75-2.75v1.5zm5.24 1.25v3h1.5v-3h-1.5z">
+                </path>
+            </svg>
+            Holiday Home
+        </a>
+    </div>
+    <div class="searchbar">
+        <i class="fa-solid fa-magnifying-glass" style="margin-left: 10px;"></i>
+        <input placeholder="Destination...">
+        <button class="button">Search</button>
+    </div>
+
+    <img class="imagess"   src="./assets/start-a-trip.png" alt="">
+    <div class="para">
+        <h2>2024's award-winning shores</h2>
+        <p>Traveller's Choice Awards Best of the Best Beaches</p>
+    </div>
+
+    <div class="imagecard">
+        <div class="card1">
+            <img src="./assets/photo4jpg 1.jpg" alt="Asia beaches">
+            <p>Asia beaches</p>
+        </div>
+
+        <div class="card1">
+            <img src="./assets/photo2jpg 3.jpg" alt=" South africa beaches">
+            <p>South africa beaches</p>
+        </div>
+
+        <div class="card1">
+            <img src="./assets/kendwa 4.jpg" alt=" America beaches">
+            <p>America beache</p>
+        </div>
+
+        <div class="card1">
+            <img src="./assets/fb-img-1472249731570 2.jpg" alt=" Srilanka beaches">
+            <p>Srilanka beache</p>
+        </div>
+    </div>
+
+
+    <div class="paragaraph">
+        <h2>Ways to tour Bengaluru</h2>
+        <p>Book these experiences for a close-up look at Bengaluru.</p>
+    </div>
+    <div class="bangalore">
+        <div class="card2">
+            <img src="./assets/caption 1.jpg" alt=" ">
+            <p></p>
+        </div>
+        <div class="card2">
+            <img src="./assets/caption 2.jpg" alt=" ">
+            <p></p>
+        </div>
+
+        <div class="card2">
+            <img src="./assets/caption 3.jpg" alt=" ">
+            <p></p>
+        </div>
+
+        <div class="card2">
+            <img src="./assets/caption 4.jpg" alt=" ">
+            <p></p>
+        </div>
+
+
+    </div>
+
+    <div class="paragaraph_1">
+        <h2>Vibrant Asian cities</h2>
+        <p>From rich cultural history to psychedelic streets</p>
+    </div>
+
+    <div class="city">
+        <div class="card3">
+            <img src="./assets/caption 5.jpg" alt=" ">
+            <p></p>
+        </div>
+
+        <div class="card3">
+            <img src="./assets/caption 6.jpg" alt=" ">
+            <p></p>
+        </div>
+
+        <div class="card3">
+            <img src="./assets/caption 7.jpg" alt=" ">
+            <p></p>
+        </div>
+
+        <div class="card3">
+            <img src="./assets/caption 8.jpg" alt=" ">
+            <p></p>
+        </div>
+    </div>
+
+    <img class="images123" src="./assets/images123.png" alt="">
+    <div class="footer">
+
+        <div class="footer-one">
+            <div class="footer-one__section1">
+                <p><a href=""> About Tripadvisor</a></p>
+                <p><a href="">Press</a></p>
+                <p><a href="">Resources and Policies</a></p>
+                <p><a href="">Careers</a></p>
+                <p><a href="">Trust & Safety</a></p>
+                <p><a href="">Contact Us</a></p>
+                <p><a href="">Accessibility Statement</a></p>
+            </div>
+
+            <div class="footer-one__section2">
+                <p><a href="">Explore</a></p>
+                <p><a href="">Write a review</a></p>
+                <p><a href="">Add a Place</a></p>
+                <p><a href="">Join </a></p>
+                <p><a href="">Travellers' Choice</a></p>
+                <p><a href="">GreenLeaders</a></p>
+                <p><a href="">Help Centre</a></p>
+            </div>
+            <div class="footer-one__section3">
+                <p><a href="">Do Business With Us</a></p>
+                <p><a href="">Owners & DMO/CVB</a></p>
+                <p><a href="">Business Advantage</a></p>
+                <p><a href="">Sponsored Placements </a></p>
+                <p><a href="">Access our Content API</a></p>
+                <p><a href="">Get The App</a></p>
+                <p><a href="">Android App</a></p>
+            </div>
+
+            <div class="footer-one__section4">
+                <p><a href="">Tripadvisor Sites</a></p>
+                <p><a href="">Book tours and attraction tickets on Viator</a></p>
+            </div>
+        </div>
+
+
+        <div class="copyrights">
+            <div class="footer-one__section5">
+                <select name="country" id="">
+
+                    <option value="">india</option>
+                    <option value="">Aus</option>
+                    <option value="">South africa</option>
+                    <option value="">America</option>
+                </select>
+            </div>
+            <div class="footer-one__section6">
+                <select name="currency" id="">
+
+                    <option value="">Rupees</option>
+                    <option value=""> Dinar</option>
+                    <option value="">Rial</option>
+                    <option value="">Dolor</option>
+                </select>
+
+            </div>
+
+            <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/?hl=en"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/?lang=en-in"> <i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.pinterest.com/"> <i class="fa-brands fa-pinterest"></i></a>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+     <!-- <div id="menu2" >
+            <a href="">Discover</a>
+            <a href="">Trip</a>
+            <a href="">Review</a>
+            <a href="">Flights</a>
+
+        </div> -->
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
