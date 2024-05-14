@@ -19,8 +19,11 @@ Interactive Elements: Engaging animations and interactive elements enhance user 
 ## Technologies Used 💻
 
 HTML
+
 CSS
+
 JavaScript
+
 Media Query
 
 ## Link 
