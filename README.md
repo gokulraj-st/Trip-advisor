@@ -26,17 +26,6 @@ JavaScript
 
 Media Query
 
- ## How to Run
-Clone the repository.
-Navigate to the project directory.
-Install dependencies using `npm install`.
-Start the frontend server using  `npm start`.
-Start the backend server using the npm run server.
-Access the application in your browser at http://localhost:3000.
-npm start
-Run the app in the development mode. Open http://localhost:3000 to view it in your browser.
-
-
 
 ## Link 
 
